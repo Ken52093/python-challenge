@@ -4,7 +4,7 @@ import csv
 # path to file
 csvpath = os.path.join("..", "PyBank", "Resources", "budget_data.csv")
 
-# Store data
+# store data
 total = []
 months = []
 month_change = []
@@ -23,9 +23,8 @@ def average (numbers):
 
 with open(csvpath) as csvfile:
     csvreader = csv.reader(csvfile, delimiter=",")
-    # remove header
     csv_header = next(csvfile)
-    # append rows
+    
     for row in csvreader:
         months.append(row[0])
         total.append(row[1])
