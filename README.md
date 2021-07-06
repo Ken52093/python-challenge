@@ -1,3 +1,3 @@
 # python-challenge
 # 1. Financial Analysis
-![](images/Financial-Analysis.png)
+![](images/Financial%20Analysis.png)
