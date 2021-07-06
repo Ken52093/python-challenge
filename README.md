@@ -1,4 +1,4 @@
 # python-challenge
 # 1. Financial Analysis
-![](Image/01.png)
+![](Images/01.png)
 
